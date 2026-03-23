@@ -34,7 +34,8 @@ const scanMsg = t => SCAN.some(p => p.test(t));
 const LISTINGS = [
 {id:1,emoji:"🚗",bg:"#0a1a0a",cat:"Vehicles",sub:"Cars",title:"2019 Toyota Camry SE - Low Miles, Clean Title",price:18500,city:"Houston",state:"TX",age:"2h",badge:"New",seller:"Marcus J.",trust:87,verified:true,views:284,saves:12},
 
-{id:2,emoji:“📱”,bg:”#0a0a1a”,cat:“Electronics”,sub:“Phones”,title:“iPhone 15 Pro Max 256GB — Unlocked”,price:850,city:“Miami”,state:“FL”,age:“30m”,badge:“Hot”,seller:“Keisha R.”,trust:92,verified:true,views:512,saves:34},
+{id:2,emoji:"📱",bg:"#0a0a1a",cat:"Electronics",sub:"Phones",title:"iPhone 15 Pro Max 256GB - Unlocked",price:850,city:"Miami",state:"FL",ago:"30m",badge:"HOT",seller:"Keisha R.",trust:92,verified:true,views:512,saves:34},
+
 {id:3,emoji:“🏠”,bg:”#0a0818”,cat:“Real Estate”,sub:“For Sale”,title:“3BR/2BA Home — Great Neighborhood, Move-In Ready”,price:285000,city:“Atlanta”,state:“GA”,age:“1h”,badge:“New”,seller:“David M.”,trust:78,verified:true,views:189,saves:8},
 {id:4,emoji:“💎”,bg:”#18100a”,cat:“Jewelry”,sub:“Bracelets”,title:“14K Gold Diamond Tennis Bracelet — Authenticated”,price:1200,city:“Dallas”,state:“TX”,age:“3h”,badge:“New”,seller:“Lisa T.”,trust:95,verified:true,views:97,saves:19},
 {id:5,emoji:“🏍️”,bg:”#1a0a0a”,cat:“Vehicles”,sub:“Motorcycles”,title:“2021 Harley Davidson Iron 883 — Garage Kept”,price:9200,city:“Phoenix”,state:“AZ”,age:“5h”,badge:“Hot”,seller:“Tony B.”,trust:88,verified:true,views:341,saves:27},
