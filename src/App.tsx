@@ -11,7 +11,8 @@ fl.rel = "stylesheet";
 document.head.appendChild(fl);
 
 // ── THEME ──
-const G=”#22c55e”,R=”#ef4444”,DARK=”#080c14”,CARD=”#131b2a”,CARD2=”#1a2438”,
+const G="#22c55e",R="#ef4444",DARK="#080c14",CARD="#131b2a",CARD2="#1a2438",
+
 MUTED=”#8899bb”,BORDER=“rgba(255,255,255,0.07)”,YELLOW=”#fbbf24”,BLUE=”#60a5fa”;
 const RUSSO=”‘Russo One’,sans-serif”;
 const BODY=”‘Nunito’,sans-serif”;
