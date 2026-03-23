@@ -2,8 +2,10 @@ import { useState, useEffect, useRef } from "react";
 
 
 // ── FONTS ──
-const fl = document.createElement(“link”);
-fl.href = “https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito:wght@400;600;700;800;900&display=swap”;
+const fl = document.createElement("link");
+fl.href = "https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito:wght@400;600;700;800;900&display=swap";
+
+
 fl.rel = “stylesheet”;
 document.head.appendChild(fl);
 
